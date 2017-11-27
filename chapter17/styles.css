@@ -1,0 +1,39 @@
+/*
+input[type=submit] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+
+input[type=reset] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+*/
+
+/* Add spacing between each country suggestion */
+.suggestion {
+  margin: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Change suggestion color when hovering it with the mouse */
+.suggestion:hover {
+  background-color: #adf;
+  cursor: pointer;
+}
+
+/* Position the suggestion list just below the input box */
+#suggestions {
+  position: absolute;
+  border: 1px solid black;
+  left: 155px;
+}
