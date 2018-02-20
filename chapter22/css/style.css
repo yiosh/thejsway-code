@@ -1,0 +1,5 @@
+#links > a,
+#links > p {
+  display: inline-block;
+  margin: 0.2em;
+}
