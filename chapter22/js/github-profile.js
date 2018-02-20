@@ -1,4 +1,4 @@
-document.getElementById();
+document.getElementById(e);
 
 fetch('https://api.github.com/user')
   .then(response => response.json())
