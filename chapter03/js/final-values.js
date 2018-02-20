@@ -1,6 +1,6 @@
-let nb1 = Number(prompt("Enter nb1:"));
-const nb2 = Number(prompt("Enter nb2:"));
-let nb3 = Number(prompt("Enter nb3:"));
+let nb1 = Number(prompt('Enter nb1:'));
+const nb2 = Number(prompt('Enter nb2:'));
+let nb3 = Number(prompt('Enter nb3:'));
 
 if (nb1 > nb2) {
   nb1 = nb3 * 2;

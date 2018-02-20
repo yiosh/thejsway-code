@@ -7,8 +7,6 @@ while (wordList[i] !== 'stop') {
   i++;
 }
 
-for (let y = 0; y < (wordList.length - 1); y++) {
+for (let y = 0; y < wordList.length - 1; y++) {
   console.log(wordList[y]);
 }
-
-

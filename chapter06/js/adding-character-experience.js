@@ -6,8 +6,8 @@ const aurora = {
   xp: 0,
   describe() {
     return `${this.name} has ${this.health} health points and ${this.strength} as strength and ${this.xp} xp`;
-  }
-}
+  },
+};
 
 // Aurora is harmed by an arrow
 aurora.health -= 20;

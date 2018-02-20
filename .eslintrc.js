@@ -12,6 +12,11 @@ module.exports = {
         "printWidth": 120,
       }
     ],
+    "no-plusplus": "off",
+    "no-console": "off",
+    "no-alert": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "prefer-destructuring": "off",
   },
   "plugins": [
     "prettier"

@@ -2,13 +2,13 @@
 // Each link must be clickable.
 
 // Newspaper list
-const newspapers = ["https://www.nytimes.com", "https://www.washingtonpost.com", "http://www.economist.com"];
+const newspapers = ['https://www.nytimes.com', 'https://www.washingtonpost.com', 'http://www.economist.com'];
 
 newspapers.forEach(link => {
-  const divElement = document.createElement("div");
-  const linkElement = document.createElement("a");
+  const divElement = document.createElement('div');
+  const linkElement = document.createElement('a');
   linkElement.href = link;
   linkElement.innerHTML = link;
   divElement.appendChild(linkElement);
-  document.querySelector("div").appendChild(divElement);
+  document.querySelector('div').appendChild(divElement);
 });

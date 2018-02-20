@@ -15,5 +15,5 @@ if (day === 'Monday' || day === 'MONDAY' || day === 'monday') {
 } else if (day === 'Sunday' || day === 'SUNDAY' || day === 'sunday') {
   alert('Tomorrow will be Monday');
 } else {
-  alert('You didn\'t input a valid day!');
+  alert("You didn't input a valid day!");
 }

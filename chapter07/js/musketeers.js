@@ -1,6 +1,6 @@
-const musketeers = ["Athos", "Porthos", "Aramis"];
+const musketeers = ['Athos', 'Porthos', 'Aramis'];
 
-for (let i = 0; i < musketeers.length;i++) {
+for (let i = 0; i < musketeers.length; i++) {
   console.log(musketeers[i]);
 }
 
@@ -12,6 +12,4 @@ musketeers.forEach(musketeer => {
 
 musketeers.splice(2, 1);
 
-for (const musketeer of musketeers) {
-  console.log(musketeer);
-}
+musketeers.forEach(musketeer => console.log(musketeer));

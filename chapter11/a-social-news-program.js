@@ -2,7 +2,7 @@ let menu = Number(prompt('Choose an option (number): \n1: Show links\n2: Add a l
 const links = [];
 while (menu !== 4) {
   if (menu === 3) {
-    if(typeof links[0] === 'undefined' || links[0] === null) {
+    if (typeof links[0] === 'undefined' || links[0] === null) {
       alert('There are no links yet');
     } else {
       const deleteInput = prompt('Please enter the index of the link you wish to delete:');
@@ -11,7 +11,7 @@ while (menu !== 4) {
     }
   }
   if (menu === 1) {
-    if(typeof links[0] === 'undefined' || links[0] === null) {
+    if (typeof links[0] === 'undefined' || links[0] === null) {
       alert('There are no links yet');
     } else {
       alert(links);

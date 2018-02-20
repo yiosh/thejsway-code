@@ -2,12 +2,12 @@ const account = {
   name: 'Alex',
   balance: 0,
   credit(value) {
-    const result = this.balance += value;
-    return result;
+    this.balance += value;
+    return this.balance;
   },
   describe() {
     return `owner: ${this.name}, balance ${this.balance}`;
-  }
+  },
 };
 console.log(account.describe());
 account.credit(170);
